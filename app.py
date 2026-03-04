@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
+import os
 
 # Load artifacts
 scaler = joblib.load("preprocessor.pkl")
@@ -51,3 +52,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
